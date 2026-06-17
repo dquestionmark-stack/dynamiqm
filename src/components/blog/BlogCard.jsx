@@ -17,9 +17,10 @@ const BlogCard = ({ data }) => {
           </h2>
 
           {/* Potongan Konten / Eksper */}
-          <p className="text-gray-500 mt-3 text-sm md:text-base leading-relaxed line-clamp-3">
-            {data.content.replace(/[#*`_]/g, "").slice(0, 110)}...
-          </p>
+          <p
+            className="text-gray-500 mt-3 text-sm md:text-base leading-relaxed line-clamp-3"
+            dangerouslySetInnerHTML={{ __html: article.content }}
+          />
         </div>
 
         {/* Bagian Bawah / Footer Kartu */}
