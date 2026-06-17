@@ -64,7 +64,7 @@ const Footer = () => {
             <div className="flex gap-3">
               {/* Instagram Icon */}
               <a
-                href="https://instagram.com"
+                href="https://instagram.com/dynamic_qm"
                 target="_blank"
                 rel="noreferrer"
                 className="w-9 h-9 rounded-lg bg-gray-900 border border-gray-800 flex items-center justify-center text-gray-400 hover:text-white hover:border-gray-700 transition-colors"
@@ -85,7 +85,7 @@ const Footer = () => {
 
               {/* TikTok Icon */}
               <a
-                href="https://tiktok.com"
+                href="https://tiktok.com/@questionmark_285"
                 target="_blank"
                 rel="noreferrer"
                 className="w-9 h-9 rounded-lg bg-gray-900 border border-gray-800 flex items-center justify-center text-gray-400 hover:text-white hover:border-gray-700 transition-colors"
@@ -100,7 +100,7 @@ const Footer = () => {
 
               {/* YouTube Icon */}
               <a
-                href="https://youtube.com"
+                href="https://youtube.com/@qstmark"
                 target="_blank"
                 rel="noreferrer"
                 className="w-9 h-9 rounded-lg bg-gray-900 border border-gray-800 flex items-center justify-center text-gray-400 hover:text-white hover:border-gray-700 transition-colors"
