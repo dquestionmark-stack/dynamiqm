@@ -19,7 +19,7 @@ const BlogCard = ({ data }) => {
           {/* Potongan Konten / Eksper */}
           <p
             className="text-gray-500 mt-3 text-sm md:text-base leading-relaxed line-clamp-3"
-            dangerouslySetInnerHTML={{ __html: article.content }}
+            dangerouslySetInnerHTML={{ __html: data.content }}
           />
         </div>
 

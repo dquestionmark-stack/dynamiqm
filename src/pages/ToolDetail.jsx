@@ -3,23 +3,6 @@ import { useParams, Link } from "react-router-dom";
 import AljabarLinearCalc from "../components/tools/AljabarLinearCalc"; // Import file komponen kalkulator tadi
 import { toolsData } from "../data/Tools/toolsData";
 
-// 1. Definisikan Konfigurasi Metadata untuk Semua Tools Kammu ke Depan
-const toolsRegistry = {
-  "kalkulator-aljabar-linear": {
-    badge: "⚡ Aplikasi Aljabar SMP",
-    title: "Kalkulator Persamaan Linear Satu Variabel",
-    desc: "Selesaikan bentuk matematika umum Ax + B = C secara otomatis lengkap dengan papan penjabaran rumusnya.",
-    component: <AljabarLinearCalc />, // Memanggil komponen form yang kita pisah tadi
-  },
-  // Nanti kalau ada tool baru (misal Pythagoras), tinggal tambah di bawah ini:
-  // "kalkulator-pythagoras": {
-  //   badge: "📐 Geometri SMP",
-  //   title: "Kalkulator Teorema Pythagoras",
-  //   desc: "Cari panjang sisi miring segitiga siku-siku instan.",
-  //   component: <PythagorasCalc />
-  // }
-};
-
 const ToolDetail = () => {
   const { slug } = useParams();
 
